@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/calculator.js"></script>
+    <script src="js/main.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator" id="calculator">
+            <div class="sup">
+                <label id="support">Подсказка</label>
+            </div>
+            <div class="inputAndBtn">
+                <input type="text" id="input" value="0" disabled>
+                <button class="btn" id="open">></button>
+            </div>
+            <div class="btns" id="btns">
+                <div class="numbers">
+                    <button class="btn number">1</button>
+                    <button class="btn number">2</button>
+                    <button class="btn number">3</button>
+                    <button class="btn number">4</button>
+                    <button class="btn number">5</button>
+                    <button class="btn number">6</button>
+                    <button class="btn number">7</button>
+                    <button class="btn number">8</button>
+                    <button class="btn number">9</button>
+                    <button id="clear" class="btn">C</button>
+                    <button class="btn number">0</button>
+                    <button class="btn operator" data-operand='equal'>=</button>
+                </div>
+
+                <div class="operators">
+                    <button class="btn operator" data-operand='add'>+</button>
+                    <button class="btn operator" data-operand='sub'>-</button>
+                    <button class="btn operator" data-operand='mult'>*</button>
+                    <button class="btn operator" data-operand='div'>/</button>
+                    <button class="btn operator" data-operand='pow'>^</button>
+                    <button class="btn operator" data-operand='crn'>n√</button>
+                </div>
+
+                <div class="operators">
+                    <button class="btn operator" data-operand='sin'>sin</button>
+                    <button class="btn operator" data-operand='cos'>cos</button>
+                    <button class="btn operator" data-operand='tg'>tg</button>
+                    <button class="btn operator" data-operand='ctg'>ctg</button>
+                </div>
+
+                <div class="operators">
+                    <button class="btn operator" data-operand='znam'>1/x</button>
+                    <button class="btn operator" data-operand='tchk'>.</button>
+                    <button class="btn operator" data-operand='znak'>+/-</button>
+                    <button class="btn operator" data-operand='mdl'>| |</button>
+                </div>
+
+                <div class="operators">
+                    <button class="btn operator" data-operand='e'>e</button>
+                    <button class="btn operator" data-operand='PI'>PI</button>
+                    <button class="btn operator" data-operand='log'>log</button>
+                    <button class="btn operator" data-operand='ln'>ln</button>
+                </div>
+
+                <div class="operators">
+                    <button class="btn operator" data-operand='Hex'>Hex</button>
+                    <button class="btn operator" data-operand='Dec'>Dec</button>
+                    <button class="btn operator" data-operand='Oct'>Oct</button>
+                    <button class="btn operator" data-operand='Bin'>Bin</button>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
